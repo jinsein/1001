@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 /Users/JJIN/1001/SYWebServices/src/sy/webservices/resteasy/HibernateUtil.java
 /Users/JJIN/1001/SYWebServices/src/sy/webservices/resteasy/Employee.java
 /Users/JJIN/1001/SYWebServices/src/sy/webservices/resteasy/MessageService.java
 /Users/JJIN/1001/SYWebServices/src/sy/webservices/entity/Sample.java
 /Users/JJIN/1001/SYWebServices/src/CreateData.java
 /Users/JJIN/1001/SYWebServices/src/sy/webservices/resteasy/CreateData.java
+=======
+/Users/youngwookyoo/Documents/Personal/1001/SYWebServices/src/sy/webservices/resteasy/MessageService.java
+/Users/youngwookyoo/Documents/Personal/1001/SYWebServices/src/sy/webservices/entity/User.java
+>>>>>>> FETCH_HEAD
