@@ -29,6 +29,7 @@
 	                <artifactId>android-maven-plugin</artifactId>
 	                <version>3.9.0-rc.1</version>
 	                <extensions>true</extensions>
+
 	                <configuration>
 	                    <sdk>
 	                        <platform>19</platform>
@@ -36,6 +37,7 @@
 	                    <deleteConflictingFiles>true</deleteConflictingFiles>
 	                    <undeployBeforeDeploy>true</undeployBeforeDeploy>
 	                </configuration>
+
 	            </plugin>
 	            <plugin>
 	                <artifactId>maven-compiler-plugin</artifactId>
