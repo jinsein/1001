@@ -22,8 +22,8 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/editText_productName"
-            android:text="Type Product Name"
+            android:id="@+id/new_product_name"
+            android:hint="Type Product Name"
             android:layout_centerVertical="true"/>
     </TableRow>
 
@@ -41,9 +41,9 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/editText_quantity"
-            android:text="Enter Quantity"
-            android:inputType="text" />
+            android:id="@+id/new_product_quantity"
+            android:hint="Enter Quantity"
+            android:inputType="number" />
 
     </TableRow>
 
@@ -61,8 +61,17 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/editText_price"
-            android:text="Enter Price" />
+            android:id="@+id/new_product_price"
+            android:hint="Enter Price"
+            android:inputType="numberDecimal"/>
 
     </TableRow>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/submit_new"
+        android:layout_below="@+id/tableRow3"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

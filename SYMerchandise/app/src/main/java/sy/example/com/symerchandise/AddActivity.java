@@ -24,6 +24,15 @@ public class AddActivity extends Activity {
                 startActivity(i);
             }
         });
+
+        Button b2 = (Button) findViewById(R.id.but_edit_product);
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), EditItemActivity.class);
+                startActivity(i);
+            }
+        });
     }
 
 }
